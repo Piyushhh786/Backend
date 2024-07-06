@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node js is js RUNTIME ENVIRONMENT\r IT IS USED FOR SERVER SIDE PROGRAMMING\r * IT IS NOT A LANGUAGE,LIBRARY,OR FRAMEWORK\r IF YOU WANT TO RUN JS NOT IN OUR BROWSER OTHER THAN IT THEN WILL HELPS YOU",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
