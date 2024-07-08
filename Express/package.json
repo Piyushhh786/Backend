@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "It is a package in npm which is used for framework of backend\r it  is used for server side programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
