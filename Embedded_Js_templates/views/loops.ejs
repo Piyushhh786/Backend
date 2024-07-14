@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+    <h1>Printing the list of followers of <%= name %>
+    </h1>
+    <ul>
+        <% for(let fan of follower) {%>
+            <li>
+                <%= fan %>
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>
