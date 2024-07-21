@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Total numbers of users present in the DATABASE: <%= count %>
+    </h1>
+    <h2><a href="http://localhost:8080/add">ADD NEW USER?click here</a></h2>
+    <h2><a href="http://localhost:8080/delete">Delete user?</a></h2>
+    <table>
+        <th>Username</th>
+        <th>UserId</th>
+        <th>Email</th>
+        <th>Edit</th>
+
+        <% for(let user of users){%>
+            <tr>
+                <td>
+                    <%=user.username%>
+                </td>
+                <td>
+                    <%=user.userId%>
+                </td>
+                <td>
+                    <%=user.email%>
+                </td>
+                <td><a href="http://localhost:8080/<%= user.userId %>/edit">Edit</a></td>
+
+            </tr>
+            <% } %>
+    </table>
+</body>
+
+</html>
