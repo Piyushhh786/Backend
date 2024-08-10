@@ -1,0 +1,14 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "mongosh is a shell\r where we write mongo commands and js is also inbuit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.5.2"
+  }
+}
