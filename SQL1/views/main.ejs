@@ -19,8 +19,8 @@
 <body>
     <h1>The Total numbers of users present in the DATABASE: <%= count %>
     </h1>
-    <h2><a href="http://localhost:8080/add">ADD NEW USER?click here</a></h2>
-    <h2><a href="http://localhost:8080/delete">Delete user?</a></h2>
+    <h2><a href="http://192.168.10.160:8080/add">ADD NEW USER?click here</a></h2>
+    <h2><a href="http://192.168.10.160:8080/delete">Delete user?</a></h2>
     <table>
         <th>Username</th>
         <th>UserId</th>
@@ -38,7 +38,7 @@
                 <td>
                     <%=user.email%>
                 </td>
-                <td><a href="http://localhost:8080/<%= user.userId %>/edit">Edit</a></td>
+                <td><a href="http://192.168.10.160:8080/<%= user.userId %>/edit">Edit</a></td>
 
             </tr>
             <% } %>

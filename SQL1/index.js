@@ -16,8 +16,8 @@ const { faker } = require('@faker-js/faker');
 //         // registeredAt: faker.date.past(),
 //     ];
 // }
-app.listen(port, () => {
-    console.log(`server is running on port :${port}`);
+app.listen(port, '0.0.0.0', () => {
+    console.log(`server is running on port http://0.0.0.0: :${port}`);
 });
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
