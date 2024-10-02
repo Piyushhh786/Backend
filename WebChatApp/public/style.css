@@ -1,0 +1,24 @@
+body {
+    margin-left: 40px;
+}
+
+.chat {
+    position: relative;
+    /* declaration of parent div */
+
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.msg {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.editButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

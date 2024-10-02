@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+</head>
+
+<body>
+    <h1>Edit Your Chat</h1>
+    <form action="http://192.168.183.160:8080/chats/<%=chat._id %>/edit?_method=PUT" method="post">
+        <label for="from">Send by: <%= chat.from %></label> <br><br>
+        <label for="Edit">Edit message here(message should not be more than 50 words)</label> <br>
+        <textarea rows="10" cols="20" name="newMsg" id="Edit"><%= chat.msg %></textarea> <br><br>
+        <label for="to">Recieved by: <%= chat.to %></label> <br> <br>
+        <button>Done</button>
+    </form>
+</body>
+
+</html>
